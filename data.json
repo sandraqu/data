@@ -1,0 +1,24 @@
+// "default" role
+{
+    "alpha": {
+        "softserve": {
+            "maxscoop": 1,
+            "cone": "waffle",
+            "topping": { "chocolate", "strawberry" }
+        }
+    }, 
+    "beta": {
+        "softserve": {
+            "maxscoop": 2,
+            "cone": "sugar",
+            "discount": 0.10,
+            "topping": { "!-strawberry", "jimmy", "pb" }
+        }
+    }, 
+    "gamma": {
+        "softserve": {
+            "maxscoop": 3,
+            "topping": { "caramel", "fudge", "blueberry" }
+        } 
+    }
+}
