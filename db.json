@@ -1,17 +1,23 @@
 {
-    alpha: {
-        softserve: {
-            scoop: max( 1 ),
-            cone: waffle,
-            discount: !-*,
-            topping: { strawberry, !-jimmy, !-pb }
+    "alpha": {
+        "softserve": {
+            "maxscoop": 1,
+            "cone": "waffle",
+            "topping": { "chocolate", "strawberry" }
         }
     }, 
-    beta: { /* empty */ }, 
-    gamma: {
-        softserve: {
-            scoop: max( 3 ),
-            topping: { caramel, fudge, blueberry }
+    "beta": {
+        "softserve": {
+            "maxscoop": 2,
+            "cone": "sugar",
+            "discount": 0.10,
+            "topping": { "!-strawberry", "jimmy", "pb" }
+        }
+    }, 
+    "gamma": {
+        "softserve": {
+            "maxscoop": 3,
+            "topping": { "caramel", "fudge", "blueberry" }
         } 
     }
 }
