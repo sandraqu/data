@@ -1,0 +1,18 @@
+// default role
+{
+    alpha: {
+        softserve: {
+            scoop: max( 1 ),
+            cone: waffle,
+            discount: !-*,
+            topping: { strawberry, !-jimmy, !-pb }
+        }
+    }, 
+    beta: { /* empty */ }, 
+    gamma: {
+        softserve: {
+            scoop: max( 3 ),
+            topping: { caramel, fudge, blueberry }
+        } 
+    }
+}
